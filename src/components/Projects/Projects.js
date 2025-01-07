@@ -28,7 +28,7 @@ function Projects() {
               title="Shopping Point"
               description="Created a robust E-commerce platform leveraging ReactJS and NodeJS, offering secure Google AUTH login for seamless user access. The platform provides personalized account management and an intuitive shopping experience, allowing users to browse, add products to their cart, and manage purchases with ease."
               ghLink="https://github.com/aakash240402/Shopping_Point_E-Commerce"
-              demoLink="https://chatify-49.web.app/"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
