@@ -1,0 +1,98 @@
+/* Container for the timeline */
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  /* Left side for Education Timeline */
+  .timeline-left {
+    padding: 20px;
+    margin-left: 10px;  /* Align left towards the white line */
+  }
+  
+  /* Right side for Work Experience Timeline */
+  .timeline-right {
+    padding: 20px;
+    margin-left: 10px;  /* Align left towards the white line */
+  }
+  
+  /* Heading Style */
+  .timeline-heading {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Timeline structure */
+  .timeline {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  /* Timeline item (dot and content) */
+  .timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  /* Dot styling */
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    border: 3px solid #fff;
+  }
+  
+  /* Content of each timeline item */
+  .timeline-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+  
+  .timeline-content h5 {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  .timeline-content p {
+    margin: 5px 0;
+  }
+  
+  /* Vertical line separator in center */
+  .timeline-divider {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 2px solid #fff;
+  }
+  
+  /* For smaller screens, stack the timelines */
+  @media (max-width: 768px) {
+    .timeline-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .timeline-left, .timeline-right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .timeline-divider {
+      display: none;
+    }
+  }
+  
