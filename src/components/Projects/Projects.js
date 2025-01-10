@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Tour Global"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/aakash240402/TOUR_GLOBAL_REACT/"
-              demoLink="https://tourglobe.netlify.app/"
+              title="Wheel Deal"
+              description="Developed a responsive multipage frontend using React.js and CSS. Designed dynamic pages like Home, Inventory, and Buy your Cars with interactive features and smooth navigation. Implemented a clean, user-friendly UI with responsive layouts, ensuring cross-browser compatibility and optimized performance. Delivered a modern interface focused on enhancing the user experience."
+              ghLink="https://github.com/aakash240402/wheels-deals"
+              demoLink="https://wheels-deals.netlify.app/"
             />
           </Col>
 
